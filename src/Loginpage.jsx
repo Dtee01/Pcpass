@@ -1,6 +1,6 @@
 import "./Login.css";
-import loginpic from './icons/PCstart.png';
-import usericon from './icons/log.png';
+import loginpic from '/icons/PCstart.png';
+import usericon from '/icons/log.png';
 export default function Login() {
   return (
     <div className="login-page">
