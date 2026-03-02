@@ -1,16 +1,17 @@
 import "./Login.css";
-
+import loginpic from './icons/PCstart.png';
+import usericon from './icons/PCstart.png';
 export default function Login() {
   return (
     <div className="login-page">
       <div className="login-card">
 
-        <img src= "/icons/PCstart.png" alt="logo" className="login-logo" />
+        <img src= {loginpic} alt="logo" className="login-logo" />
 
         <div className="login-body">
           
           <div className="login-left">
-            <img src="/icons/log.png" alt="user" />
+            <img src={usericon} alt="user" />
           </div>
 
           <div className="login-right">
