@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Loginpage from "./Loginpage";
+import Login from "./Loginpage";
 import AdminDashboard from "./AdminDashboard";
 import Account from "./Adminpages/Account";
 import Declarations from "./Adminpages/Declarations";
@@ -8,7 +8,7 @@ import Reports from "./Adminpages/Reports";
 
 function App() {
   return (
-    < Loginpage />
+    < Login />
     /*<BrowserRouter>
       <Routes>
         <Route path="/" element={<AdminDashboard />} />
