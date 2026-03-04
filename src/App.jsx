@@ -9,9 +9,9 @@ function App() {
     <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/admin" element={<AdminDashboard />} />
-        <Route path="/department" element={<Department />} />
-        <Route path="/security" element={<Security />} />
+        <Route path="/admin/*" element={<AdminDashboard />} />
+        <Route path="/department/*" element={<Department />} />
+        <Route path="/security/*" element={<Security />} />
      </Routes>
 
     </BrowserRouter>
