@@ -3,6 +3,10 @@ import Account from "./Adminpages/Account";
 import Declarations from "./Adminpages/Declarations";
 import EditUsers from "./Adminpages/EditUsers";
 import Reports from "./Adminpages/Reports";
+import usericon from "/icons/user.png";
+import laptopicon from "/icons/laptop.png";
+import reporticon from "/icons/report.png";
+import toolsicon from "/icons/tools.png";
 
 function Card({ icon, title, route }) {
   const navigate = useNavigate();
@@ -22,10 +26,10 @@ function DashboardHome() {
         <h1>ADMINISTRATION DASHBOARD</h1>
 
         <div className="grid">
-          <Card icon="/icons/user.png" title="Edit Users" route="users" />
-          <Card icon="/icons/laptop.png" title="View Declarations" route="declarations" />
-          <Card icon="/icons/report.png" title="Reports" route="reports" />
-          <Card icon="/icons/tools.png" title="My Account" route="account" />
+          <Card icon={usericon} title="Edit Users" route="users" />
+          <Card icon={laptopicon} title="View Declarations" route="declarations" />
+          <Card icon={reporticon} title="Reports" route="reports" />
+          <Card icon={toolsicon} title="My Account" route="account" />
         </div>
 
         <div className="logout">LOG OUT</div>
