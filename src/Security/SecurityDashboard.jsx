@@ -1,6 +1,6 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
 import loginpic from '/icons/PCstart.png';
-export default function Security(){
+export default function SecurityDashboard(){
     return(
     <div>
         <div>

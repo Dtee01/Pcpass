@@ -1,4 +1,5 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
+import "./Adminpages/dashboard.css";
 import Account from "./Adminpages/Account";
 import Declarations from "./Adminpages/Declarations";
 import EditUsers from "./Adminpages/EditUsers";

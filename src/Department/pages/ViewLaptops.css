@@ -1,0 +1,38 @@
+.table-container{
+
+margin-top:30px;
+
+}
+
+.laptop-table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+.laptop-table th{
+
+background:#1e293b;
+color:white;
+padding:12px;
+text-align:left;
+
+}
+
+.laptop-table td{
+
+padding:12px;
+border-bottom:1px solid #eee;
+
+}
+
+.laptop-table tr:hover{
+
+background:#f1f5f9;
+
+}

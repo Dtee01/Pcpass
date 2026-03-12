@@ -1,0 +1,32 @@
+.declaration-table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+.declaration-table th{
+
+background:#0f172a;
+color:white;
+padding:12px;
+text-align:left;
+
+}
+
+.declaration-table td{
+
+padding:12px;
+border-bottom:1px solid #eee;
+
+}
+
+.declaration-table tr:hover{
+
+background:#f1f5f9;
+
+}

@@ -1,0 +1,31 @@
+.account-panel{
+
+width:400px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+gap:15px;
+
+}
+
+.account-panel input{
+
+padding:10px;
+border-radius:6px;
+border:1px solid #ccc;
+
+}
+
+.update-btn{
+
+background:#2563eb;
+color:white;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+
+}

@@ -1,17 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Loginpage";
-import Department from "./Department";
-import AdminDashboard from "./AdminDashboard";
-import Security from "./Security";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Login from "./Login/Loginpage";
+import DepartmentRoutes from "./Department/DeptRoutes";
+import AdminRoutes from "./Admin Layout/AdminRoutes";
+import SecurityDashboard from "./Security/SecurityDashboard";
 
 function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/admin/*" element={<AdminDashboard />} />
-        <Route path="/department/*" element={<Department />} />
-        <Route path="/security/*" element={<Security />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/department/*" element={<DepartmentRoutes />} />
+        <Route path="/admin/*" element={<AdminRoutes/>} />
+        <Route path="/security/*" element={<SecurityDashboard/>} />
+        <Route path="*" element={<Navigate to="/login" />} />
      </Routes>
 
     </BrowserRouter>

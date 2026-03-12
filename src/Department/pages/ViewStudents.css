@@ -1,0 +1,26 @@
+.add-btn{
+
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+margin-bottom:20px;
+
+}
+
+.data-table{
+
+width:100%;
+border-collapse:collapse;
+background:white;
+
+}
+
+.data-table th,
+.data-table td{
+
+padding:12px;
+border-bottom:1px solid #ddd;
+
+}
